@@ -78,6 +78,9 @@ weekday_df.append(fri_df)
 
 print(weekday_df)
 
+weekend_df = sat_df
+weekend_df.append(sun_df)
+
 # print(weekday_df)
 # print()
 # print(weekend_df)
